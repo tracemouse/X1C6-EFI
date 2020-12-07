@@ -1,0 +1,126 @@
+5:001  2:440  Found UEFI Acpi 2.0 RSDP at 4FFFE014
+5:001  0:000  Saving ACPI tables from RSDP 4FFFE014 to EFI\CLOVER\ACPI\origin ...
+5:001  0:000   4FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:015  0:014    (Xsdt: 4FFB2188, Rsdt: 4FFB20C4)
+5:015  0:000    4FFB2188: 'XSDT', 'TP-N23', Rev: 1, Len: 292 -> XSDT.aml
+5:028  0:012    4FFB20C4: 'RSDT', 'TP-N23', Rev: 1, Len: 164 -> RSDT.aml
+5:039  0:011    Tables in Xsdt: 32
+5:039  0:000    0. 4FFEB000: 'FACP', 'TP-N23', Rev: 5, Len: 244 -> FACP.aml
+5:051  0:011        (Dsdt: 4FFC0000, Facs: 4FF3E000, XDsdt: 4FFC0000, XFacs: 0)
+5:051  0:000        4FFC0000: 'DSDT', 'SKL', Rev: 2, Len: 159172 -> DSDT.aml
+5:068  0:016        4FF3E000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:080  0:011    1. 4FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 39346 -> SSDT-0-DptfTabl.aml
+5:094  0:013    2. 4FFF2000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987 -> SSDT-1-Tpm2Tabl.aml
+5:105  0:011    3. 4FFF1000: 'TPM2', 'TP-N23', Rev: 3, Len: 52 -> TPM2.aml
+5:118  0:012    4. 4FF53000: 'UEFI', 'TP-N23', Rev: 1, Len: 66 -> UEFI.aml
+5:130  0:012    5. 4FFED000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506 -> SSDT-2-SaSsdt.aml
+5:142  0:012    6. 4FFEC000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478 -> SSDT-3-PerfTune.aml
+5:154  0:012    7. 4FFEA000: 'HPET', 'TP-N23', Rev: 1, Len: 56 -> HPET.aml
+5:166  0:012    8. 4FFE9000: 'APIC', 'TP-N23', Rev: 3, Len: 300 -> APIC.aml
+5:178  0:012    9. 4FFE8000: 'MCFG', 'TP-N23', Rev: 1, Len: 60 -> MCFG.aml
+5:190  0:012    10. 4FFE7000: 'ECDT', 'TP-N23', Rev: 1, Len: 83 -> ECDT.aml
+5:203  0:012    11. 4FFBE000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7453 -> SSDT-4-RVP7Rtd3.aml
+5:215  0:012    12. 4FFBC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 6103 -> SSDT-5-ProjSsdt.aml
+5:227  0:011    13. 4FFBB000: 'BOOT', 'TP-N23', Rev: 1, Len: 40 -> BOOT.aml
+5:239  0:011    14. 4FFBA000: 'BATB', 'TP-N23', Rev: 2, Len: 74 -> BATB.aml
+5:251  0:011    15. 4FFB9000: 'SLIC', 'TP-N23', Rev: 1, Len: 374 -> SLIC.aml
+5:263  0:012    16. 4FFB7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+5:275  0:011        * 4FF1A098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1518  53 53 44 54 EE 05 00 00 02 8C 50 6D 52 65 66 00 Internal length = 1518 -> SSDT-x6_0-Cpu0Ist.aml
+5:287  0:011        * 4FEA0018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
+5:299  0:011        * 4FEA1698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
+5:311  0:012        * 4FF1A718: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
+5:323  0:012        * 4FF1AE18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
+5:335  0:012        * 4F48E018: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
+5:347  0:012        * 4FEA1018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
+5:360  0:013  
+5:360  0:000    17. 4FFB6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-7-CtdpB.aml
+5:372  0:011    18. 4FFB5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1727 -> SSDT-8-UsbCTabl.aml
+5:385  0:013    19. 4FFB4000: 'LPIT', 'TP-N23', Rev: 1, Len: 148 -> LPIT.aml
+5:397  0:011    20. 4FFB3000: 'WSMT', 'TP-N23', Rev: 1, Len: 40 -> WSMT.aml
+5:409  0:011    21. 4FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472 -> SSDT-9-HdaDsp.aml
+5:422  0:012    22. 4FFB1000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1424 -> SSDT-10-TbtTypeC.aml
+5:434  0:012    23. 4FFB0000: 'SSDT', 'Wwan', Rev: 2, Len: 721 -> SSDT-11-Wwan.aml
+5:446  0:011    24. 4FFAF000: 'DBGP', 'TP-N23', Rev: 1, Len: 52 -> DBGP.aml
+5:458  0:011    25. 4FFAE000: 'DBG2', 'TP-N23', Rev: 0, Len: 84 -> DBG2.aml
+5:470  0:011    26. 4FFAD000: 'MSDM', 'TP-N23', Rev: 3, Len: 85 -> MSDM.aml
+5:482  0:012    27. 4FFAC000: 'NHLT', 'TP-N23', Rev: 0, Len: 45 -> NHLT.aml
+5:494  0:011    28. 4FFAB000: 'ASF!', 'TP-N23', Rev: 32, Len: 160 -> ASF!.aml
+5:506  0:012    29. 4FFAA000: 'FPDT', 'TP-N23', Rev: 1, Len: 68 -> FPDT.aml
+5:518  0:012    30. 4FFA9000: 'BGRT', 'TP-N23', Rev: 1, Len: 56 -> BGRT.aml
+5:530  0:011    31. 4FF2C000: 'UEFI', 'TP-N23', Rev: 1, Len: 318 -> UEFI.aml
+5:548  0:017    Tables in Rsdt: 32
+5:548  0:000    0. 4FFEB000: 'FACP', 'TP-N23', Rev: 5, Len: 244
+5:548  0:000        (Dsdt: 4FFC0000, Facs: 4FF3E000, XDsdt: 4FFC0000, XFacs: 0)
+5:548  0:000        4FFC0000: 'DSDT', 'SKL', Rev: 2, Len: 159172
+5:551  0:002        4FF3E000: 'FACS', Ver: 2, Len: 64
+5:551  0:000    1. 4FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 39346
+5:551  0:000    2. 4FFF2000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+5:551  0:000    3. 4FFF1000: 'TPM2', 'TP-N23', Rev: 3, Len: 52
+5:551  0:000    4. 4FF53000: 'UEFI', 'TP-N23', Rev: 1, Len: 66
+5:551  0:000    5. 4FFED000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506
+5:551  0:000    6. 4FFEC000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+5:551  0:000    7. 4FFEA000: 'HPET', 'TP-N23', Rev: 1, Len: 56
+5:551  0:000    8. 4FFE9000: 'APIC', 'TP-N23', Rev: 3, Len: 300
+5:551  0:000    9. 4FFE8000: 'MCFG', 'TP-N23', Rev: 1, Len: 60
+5:551  0:000    10. 4FFE7000: 'ECDT', 'TP-N23', Rev: 1, Len: 83
+5:551  0:000    11. 4FFBE000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7453
+5:551  0:000    12. 4FFBC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 6103
+5:551  0:000    13. 4FFBB000: 'BOOT', 'TP-N23', Rev: 1, Len: 40
+5:551  0:000    14. 4FFBA000: 'BATB', 'TP-N23', Rev: 2, Len: 74
+5:551  0:000    15. 4FFB9000: 'SLIC', 'TP-N23', Rev: 1, Len: 374
+5:551  0:000    16. 4FFB7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:551  0:000    17. 4FFB6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+5:551  0:000    18. 4FFB5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1727
+5:551  0:000    19. 4FFB4000: 'LPIT', 'TP-N23', Rev: 1, Len: 148
+5:551  0:000    20. 4FFB3000: 'WSMT', 'TP-N23', Rev: 1, Len: 40
+5:551  0:000    21. 4FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+5:551  0:000    22. 4FFB1000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1424
+5:551  0:000    23. 4FFB0000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+5:551  0:000    24. 4FFAF000: 'DBGP', 'TP-N23', Rev: 1, Len: 52
+5:551  0:000    25. 4FFAE000: 'DBG2', 'TP-N23', Rev: 0, Len: 84
+5:551  0:000    26. 4FFAD000: 'MSDM', 'TP-N23', Rev: 3, Len: 85
+5:551  0:000    27. 4FFAC000: 'NHLT', 'TP-N23', Rev: 0, Len: 45
+5:551  0:000    28. 4FFAB000: 'ASF!', 'TP-N23', Rev: 32, Len: 160
+5:551  0:000    29. 4FFAA000: 'FPDT', 'TP-N23', Rev: 1, Len: 68
+5:551  0:000    30. 4FFA9000: 'BGRT', 'TP-N23', Rev: 1, Len: 56
+5:551  0:000    31. 4FF2C000: 'UEFI', 'TP-N23', Rev: 1, Len: 318
+5:551  0:000  Found UEFI Acpi 1.0 RSDP at 4FFFE000
+5:551  0:000  Printing ACPI tables from RSDP 4FFFE000 ...
+5:551  0:000   4FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+5:551  0:000    (Rsdt: 4FFB2000)
+5:551  0:000    4FFB2000: 'RSDT', 'TP-N23', Rev: 1, Len: 160
+5:551  0:000    Tables in Rsdt: 31
+5:551  0:000    0. 4FFEB000: 'FACP', 'TP-N23', Rev: 5, Len: 244
+5:551  0:000        (Dsdt: 4FFC0000, Facs: 4FF3E000, XDsdt: 4FFC0000, XFacs: 0)
+5:551  0:000        4FFC0000: 'DSDT', 'SKL', Rev: 2, Len: 159172
+5:554  0:002        4FF3E000: 'FACS', Ver: 2, Len: 64
+5:554  0:000    1. 4FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 39346
+5:554  0:000    2. 4FFF2000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+5:554  0:000    3. 4FFF1000: 'TPM2', 'TP-N23', Rev: 3, Len: 52
+5:554  0:000    4. 4FF53000: 'UEFI', 'TP-N23', Rev: 1, Len: 66
+5:554  0:000    5. 4FFED000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12506
+5:554  0:000    6. 4FFEC000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+5:554  0:000    7. 4FFEA000: 'HPET', 'TP-N23', Rev: 1, Len: 56
+5:554  0:000    8. 4FFE9000: 'APIC', 'TP-N23', Rev: 3, Len: 300
+5:554  0:000    9. 4FFE8000: 'MCFG', 'TP-N23', Rev: 1, Len: 60
+5:554  0:000    10. 4FFE7000: 'ECDT', 'TP-N23', Rev: 1, Len: 83
+5:554  0:000    11. 4FFBE000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7453
+5:554  0:000    12. 4FFBC000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 6103
+5:554  0:000    13. 4FFBB000: 'BOOT', 'TP-N23', Rev: 1, Len: 40
+5:554  0:000    14. 4FFBA000: 'BATB', 'TP-N23', Rev: 2, Len: 74
+5:554  0:000    15. 4FFB7000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:554  0:000    16. 4FFB6000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+5:554  0:000    17. 4FFB5000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1727
+5:554  0:000    18. 4FFB4000: 'LPIT', 'TP-N23', Rev: 1, Len: 148
+5:554  0:000    19. 4FFB3000: 'WSMT', 'TP-N23', Rev: 1, Len: 40
+5:554  0:000    20. 4FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 472
+5:554  0:000    21. 4FFB1000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1424
+5:554  0:000    22. 4FFB0000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+5:554  0:000    23. 4FFAF000: 'DBGP', 'TP-N23', Rev: 1, Len: 52
+5:554  0:000    24. 4FFAE000: 'DBG2', 'TP-N23', Rev: 0, Len: 84
+5:554  0:000    25. 4FFAD000: 'MSDM', 'TP-N23', Rev: 3, Len: 85
+5:554  0:000    26. 4FFAC000: 'NHLT', 'TP-N23', Rev: 0, Len: 45
+5:554  0:000    27. 4FFAB000: 'ASF!', 'TP-N23', Rev: 32, Len: 160
+5:554  0:000    28. 4FFAA000: 'FPDT', 'TP-N23', Rev: 1, Len: 68
+5:554  0:000    29. 4FFA9000: 'BGRT', 'TP-N23', Rev: 1, Len: 56
+5:554  0:000    30. 4FF2C000: 'UEFI', 'TP-N23', Rev: 1, Len: 318
