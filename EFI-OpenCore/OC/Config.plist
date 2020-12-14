@@ -1146,7 +1146,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -1396,6 +1396,7 @@
 			<string>OpenUsbKbDxe.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>HFSPlus.efi</string>
+			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
