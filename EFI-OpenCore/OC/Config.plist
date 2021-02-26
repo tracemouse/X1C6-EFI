@@ -1152,7 +1152,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>5</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -1160,7 +1160,7 @@
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
-			<true/>
+			<false/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -1209,7 +1209,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>ApECID</key>
@@ -1283,7 +1283,7 @@
 				<key>Comment</key>
 				<string>CleanNvram.efi</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>CleanNvram.efi</string>
 				<key>Path</key>
@@ -1409,7 +1409,7 @@
 				<key>Comment</key>
 				<string>ResetSystem.efi</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>ResetSystem.efi</string>
 				<key>Path</key>
