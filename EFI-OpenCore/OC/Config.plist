@@ -969,7 +969,7 @@
                     <key>Comment</key>
                     <string>V2.1.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -987,7 +987,7 @@
                     <key>Comment</key>
                     <string>V2.1.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/itlwm</string>
                     <key>MaxKernel</key>
@@ -1021,7 +1021,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V</string>
+                    <string>V2.0.1</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
