@@ -701,7 +701,7 @@
                 <key>DiscardHibernateMap</key>
                 <false/>
                 <key>EnableSafeModeSlide</key>
-                <false/>
+                <true/>
                 <key>EnableWriteUnprotector</key>
                 <true/>
                 <key>ForceBooterSignature</key>
@@ -715,7 +715,7 @@
                 <key>ProtectUefiServices</key>
                 <false/>
                 <key>ProvideCustomSlide</key>
-                <false/>
+                <true/>
                 <key>ProvideMaxSlide</key>
                 <integer>0</integer>
                 <key>RebuildAppleMemoryMap</key>
@@ -1705,6 +1705,26 @@
                     <key>TextMode</key>
                     <false/>
                 </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <false/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>Name</key>
+                    <string>CFGLock.efi</string>
+                    <key>Path</key>
+                    <string>CFGLock.efi</string>
+                    <key>RealPath</key>
+                    <false/>
+                    <key>TextMode</key>
+                    <false/>
+                </dict>
             </array>
         </dict>
         <key>NVRAM</key>
@@ -1782,7 +1802,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02739600GUHWVP8C</string>
+                <string>C02844303GUJP4FJC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1794,11 +1814,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro15,4</string>
+                <string>MacBookPro15,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02VGNZYHV29</string>
+                <string>C02XM7ZXKGYG</string>
                 <key>SystemUUID</key>
-                <string>7ED924E1-F1E9-40F8-916D-C97FEFA20F8E</string>
+                <string>8BDA404F-1BBB-4E9D-8871-56D1F307DEB8</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
