@@ -1213,7 +1213,7 @@
                     <key>BundlePath</key>
                     <string>YogaSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.1</string>
+                    <string>V1.5.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
